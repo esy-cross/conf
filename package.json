@@ -1,0 +1,19 @@
+{
+  "name": "@esy-cross/conf",
+  "version": "0.0.1",
+  "dependencies": {
+    "@esy-ocaml/substs": "^0.0.1",
+    "@esy-ocaml/esy-installer": "^0.0.0"
+  },
+  "peerDependencies": {
+    "ocaml": "*"
+  },
+  "esy": {
+    "build": [
+      ["sh", "./prepare_ios.sh"],
+      ["cp", "./ios.config", "$cur__etc/ios.config"]
+    ],
+    "install": [],
+    "buildsInSource": true
+  }
+}

@@ -1,12 +1,9 @@
 {
   "name": "@esy-cross/conf",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "dependencies": {
     "@esy-ocaml/substs": "^0.0.1",
     "@esy-ocaml/esy-installer": "^0.0.0"
-  },
-  "peerDependencies": {
-    "ocaml": "*"
   },
   "esy": {
     "build": [
